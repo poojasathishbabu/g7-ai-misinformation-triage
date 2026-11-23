@@ -29,12 +29,12 @@ Political claims spread fast. Can we flag misleading claims early, with evidence
 
 ## How to Run
 pip install -r requirements.txt
+
 python src/train_tfidf.py
+
 python src/bert_train.py  # needs GPU / HF
+
 Open dashboard.html
-## Links
-- Link 1 Repo: github.com/<your-username>/11-g7-ai-misinformation
-- Link 2 Result Dashboard: <your-dashboard-link>
 
 ## Tests
 python src/test_mapping.py
