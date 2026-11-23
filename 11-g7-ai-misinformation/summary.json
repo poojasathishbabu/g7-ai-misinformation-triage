@@ -1,0 +1,130 @@
+{
+  "train_n": 10240,
+  "valid_n": 1284,
+  "test_n": 1267,
+  "label_counts_train": {
+    "half-true": 2114,
+    "false": 1995,
+    "mostly-true": 1962,
+    "true": 1676,
+    "barely-true": 1654,
+    "pants-fire": 839
+  },
+  "binary_train": {
+    "0": 5752,
+    "1": 4488
+  },
+  "accuracy": 0.602,
+  "f1_fake": 0.549,
+  "majority_acc": 0.564,
+  "confusion": [
+    [
+      456,
+      258
+    ],
+    [
+      246,
+      307
+    ]
+  ],
+  "top_fake_words": [
+    [
+      "obamacare",
+      1.75
+    ],
+    [
+      "obama",
+      1.61
+    ],
+    [
+      "wisconsin",
+      1.6
+    ],
+    [
+      "rep",
+      1.54
+    ],
+    [
+      "illegals",
+      1.44
+    ],
+    [
+      "government",
+      1.4
+    ],
+    [
+      "away",
+      1.31
+    ],
+    [
+      "group",
+      1.24
+    ],
+    [
+      "scott walker",
+      1.23
+    ],
+    [
+      "care law",
+      1.23
+    ],
+    [
+      "says",
+      1.21
+    ],
+    [
+      "team",
+      1.19
+    ]
+  ],
+  "top_real_words": [
+    [
+      "percent",
+      -2.27
+    ],
+    [
+      "countries",
+      -2.17
+    ],
+    [
+      "day",
+      -1.8
+    ],
+    [
+      "georgia",
+      -1.79
+    ],
+    [
+      "average",
+      -1.63
+    ],
+    [
+      "times",
+      -1.61
+    ],
+    [
+      "months",
+      -1.59
+    ],
+    [
+      "terms",
+      -1.5
+    ],
+    [
+      "debt",
+      -1.48
+    ],
+    [
+      "million",
+      -1.47
+    ],
+    [
+      "cities",
+      -1.4
+    ],
+    [
+      "decades",
+      -1.35
+    ]
+  ]
+}

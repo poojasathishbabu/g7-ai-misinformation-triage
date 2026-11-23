@@ -1,0 +1,1 @@
+LIAR 10,240 claims, 6-label to Binary triage. TF-IDF + Logistic Acc 0.602, F1-Fake 0.549 vs Majority 0.564. Triage >0.8 to human review, NOT auto-ban.
